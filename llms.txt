@@ -1,0 +1,60 @@
+# meupacote
+
+O `meupacote` reúne funções para operações aritméticas e geométricas
+simples, para sortear delineamentos experimentais e para o teste t de
+uma média, além de um conjunto de dados de densidade do solo.
+
+## Instalação
+
+A versão em desenvolvimento pode ser instalada a partir do GitHub:
+
+``` r
+
+# install.packages("pak")
+pak::pak("fernandomayer/tdr-teste-ci")
+```
+
+## Exemplo
+
+``` r
+
+library(meupacote)
+pitagoras(3, 4)
+#> [1] 5
+teste_t(dens_solo$dens, mu0 = 1.3)
+#> Teste t para a média de uma população
+#> H0: média = 1.3, n = 10
+#> t = -1.133, p-valor = 0.2866
+```
+
+# Package index
+
+## Cálculos
+
+- [`soma()`](https://fernandomayer.github.io/tdr-teste-ci/reference/soma.md)
+  : Soma de dois números
+- [`pitagoras()`](https://fernandomayer.github.io/tdr-teste-ci/reference/pitagoras.md)
+  : Hipotenusa de um triângulo retângulo
+- [`cusum()`](https://fernandomayer.github.io/tdr-teste-ci/reference/cusum.md)
+  : Soma acumulada com reinício em zero
+
+## Experimentação
+
+- [`design()`](https://fernandomayer.github.io/tdr-teste-ci/reference/design.md)
+  : Sorteio de delineamentos experimentais
+- [`teste_t()`](https://fernandomayer.github.io/tdr-teste-ci/reference/teste_t.md)
+  : Teste t para a média de uma população
+- [`meuxy()`](https://fernandomayer.github.io/tdr-teste-ci/reference/meuxy.md)
+  : Gráfico de dispersão personalizado
+
+## Dados
+
+- [`dens_solo`](https://fernandomayer.github.io/tdr-teste-ci/reference/dens_solo.md)
+  : Densidade do solo ao longo do perfil em zonas de compactação
+
+# Articles
+
+### All vignettes
+
+- [Introdução ao
+  meupacote](https://fernandomayer.github.io/tdr-teste-ci/articles/meupacote.md):
