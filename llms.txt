@@ -27,7 +27,7 @@ teste_t(dens_solo$dens, mu0 = 1.3)
 #> t = -1.133, p-valor = 0.2866
 ```
 
-# Package index
+# Índice de pacotes
 
 ## Cálculos
 
@@ -52,9 +52,9 @@ teste_t(dens_solo$dens, mu0 = 1.3)
 - [`dens_solo`](https://fernandomayer.github.io/tdr-teste-ci/reference/dens_solo.md)
   : Densidade do solo ao longo do perfil em zonas de compactação
 
-# Articles
+# Artigos
 
-### All vignettes
+### Todas as vinhetas
 
 - [Introdução ao
   meupacote](https://fernandomayer.github.io/tdr-teste-ci/articles/meupacote.md):

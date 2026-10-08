@@ -3,13 +3,13 @@
 Valores de densidade do solo em amostras retiradas a diferentes
 profundidades do perfil, em um estudo sobre zonas de compactação.
 
-## Usage
+## Uso
 
 ``` r
 dens_solo
 ```
 
-## Format
+## Formato
 
 Um `data.frame` com 10 linhas e 2 colunas:
 
@@ -21,13 +21,13 @@ Um `data.frame` com 10 linhas e 2 colunas:
 
   Densidade do solo na amostra (g cm\\^{-3}\\).
 
-## Source
+## Fonte
 
 COSTA, J. R. *Técnicas experimentais aplicadas às ciências agrárias*.
 Seropédica: Embrapa Agrobiologia, 2003 (Documentos, 163). Exemplo
 5.7.2.1, p. 90.
 
-## Examples
+## Exemplos
 
 ``` r
 str(dens_solo)

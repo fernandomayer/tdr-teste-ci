@@ -4,13 +4,13 @@ Calcula a estatística CUSUM unilateral superior de uma série: a soma
 acumulada dos desvios acima de `k`, reiniciada em zero sempre que fica
 negativa.
 
-## Usage
+## Uso
 
 ``` r
 cusum(x, k)
 ```
 
-## Arguments
+## Argumentos
 
 - x:
 
@@ -20,11 +20,11 @@ cusum(x, k)
 
   Valor de referência subtraído de cada observação.
 
-## Value
+## Valor
 
 Um vetor numérico do comprimento de `x`.
 
-## Examples
+## Exemplos
 
 ``` r
 cusum(c(0.2, 1.4, 0.9, -0.3, 1.8), k = 0.5)

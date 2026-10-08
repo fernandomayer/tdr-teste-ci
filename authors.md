@@ -1,10 +1,10 @@
-# Authors and Citation
+# Autores e citação
 
-## Authors
+## Autores
 
-- **Maria Silva**. Author, maintainer.
+- **Maria Silva**. Autor, mantenedor.
 
-## Citation
+## Citação
 
 Silva M (2026). *meupacote: Funções de Exemplo para um Primeiro Pacote*.
 R package version 0.1.0,

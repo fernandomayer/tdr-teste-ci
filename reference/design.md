@@ -3,13 +3,13 @@
 Sorteia os tratamentos às parcelas de um delineamento inteiramente
 casualizado (DIC) ou de blocos casualizados (DBC).
 
-## Usage
+## Uso
 
 ``` r
 design(k, n, des = c("dic", "dbc"))
 ```
 
-## Arguments
+## Argumentos
 
 - k:
 
@@ -23,11 +23,11 @@ design(k, n, des = c("dic", "dbc"))
 
   Delineamento: `"dic"` ou `"dbc"`.
 
-## Value
+## Valor
 
 Um `data.frame` com uma linha por parcela.
 
-## Examples
+## Exemplos
 
 ``` r
 design(k = 3, n = 2, des = "dic")

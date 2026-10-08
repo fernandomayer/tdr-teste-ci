@@ -3,37 +3,37 @@
 Recebe dois números e devolve a soma deles. Este primeiro parágrafo é a
 descrição: diz o que a função faz e para que ela serve.
 
-## Usage
+## Uso
 
 ``` r
 soma(x, y)
 ```
 
-## Arguments
+## Argumentos
 
 - x, y:
 
   Vetores numéricos.
 
-## Value
+## Valor
 
 Um vetor numérico com a soma de `x` e `y`.
 
-## Details
+## Detalhes
 
 Este campo recebe os detalhes técnicos, quando houver, ou explica melhor
 como usar algum argumento.
 
-## See also
+## Veja também
 
 [`sum()`](https://rdrr.io/r/base/sum.html), que soma todos os elementos
 de um vetor.
 
-## Author
+## Autor
 
 Maria Silva
 
-## Examples
+## Exemplos
 
 ``` r
 soma(2, 2)

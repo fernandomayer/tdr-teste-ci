@@ -3,13 +3,13 @@
 Calcula a estatística e o p-valor do teste t bilateral para a média de
 uma população, a partir de uma amostra aleatória simples.
 
-## Usage
+## Uso
 
 ``` r
 teste_t(x, mu0)
 ```
 
-## Arguments
+## Argumentos
 
 - x:
 
@@ -19,13 +19,13 @@ teste_t(x, mu0)
 
   Média da população sob a hipótese nula.
 
-## Value
+## Valor
 
 Um objeto da classe `teste_t`: uma lista com o tamanho, a média e o
 desvio-padrão da amostra, a média sob a hipótese nula, a estatística e o
 p-valor do teste.
 
-## Examples
+## Exemplos
 
 ``` r
 set.seed(2026)

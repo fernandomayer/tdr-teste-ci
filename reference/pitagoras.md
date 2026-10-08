@@ -3,28 +3,28 @@
 Dados os catetos de um triângulo retângulo, calcula a hipotenusa pelo
 teorema de Pitágoras.
 
-## Usage
+## Uso
 
 ``` r
 pitagoras(a, b)
 ```
 
-## Arguments
+## Argumentos
 
 - a, b:
 
   Vetores numéricos com os catetos, todos positivos.
 
-## Value
+## Valor
 
 Um vetor numérico com as hipotenusas.
 
-## Details
+## Detalhes
 
 A hipotenusa é \\h = \sqrt{a^2 + b^2}\\. Os dois vetores seguem a regra
 de reciclagem usual do R.
 
-## Examples
+## Exemplos
 
 ``` r
 pitagoras(3, 4)
