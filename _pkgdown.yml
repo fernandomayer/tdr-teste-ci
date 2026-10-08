@@ -1,0 +1,20 @@
+url: https://fernandomayer.github.io/tdr-teste-ci/
+template:
+  bootstrap: 5
+
+lang: pt
+
+reference:
+  - title: Cálculos
+    contents:
+      - soma
+      - pitagoras
+      - cusum
+  - title: Experimentação
+    contents:
+      - design
+      - teste_t
+      - meuxy
+  - title: Dados
+    contents:
+      - dens_solo

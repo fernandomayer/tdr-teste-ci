@@ -8,6 +8,13 @@
 \description{
 Reúne funções para operações aritméticas e geométricas simples, para sortear delineamentos experimentais e para o teste t de uma média, além de um conjunto de dados de densidade do solo.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://fernandomayer.github.io/tdr-teste-ci/}
+}
+
+}
 \author{
 \strong{Maintainer}: Maria Silva \email{maria.silva@example.com}
 

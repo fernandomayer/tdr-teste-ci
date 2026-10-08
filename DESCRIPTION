@@ -26,3 +26,4 @@ VignetteBuilder: knitr
 Config/testthat/edition: 3
 LinkingTo: 
     Rcpp
+URL: https://fernandomayer.github.io/tdr-teste-ci/
