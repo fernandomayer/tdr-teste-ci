@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   schedule:
-    - cron: "49 17 * * *"
+    - cron: "52 17 * * *"
 
 name: segredo.yaml
 
@@ -18,6 +18,9 @@ jobs:
           print(nchar(Sys.getenv("MINHA_CHAVE")))
           print(Sys.getenv("MINHA_CHAVE"))
           print(toupper(Sys.getenv("MINHA_CHAVE")))
+          print(Sys.getenv(c("LANG", "LC_ALL")))
+          print(Sys.getlocale("LC_MESSAGES"))
+          print(system("locale -a", intern = TRUE))
         shell: Rscript {0}
         env:
           MINHA_CHAVE: ${{ secrets.MINHA_CHAVE }}
