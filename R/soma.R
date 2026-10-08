@@ -3,7 +3,6 @@
 #' Recebe dois números e devolve a soma deles. Este primeiro parágrafo é a
 #' descrição: diz o que a função faz e para que ela serve.
 #'
-#' @param x,y Vetores numéricos.
 #'
 #' @details Este campo recebe os detalhes técnicos, quando houver, ou
 #'     explica melhor como usar algum argumento.
