@@ -1,0 +1,25 @@
+---
+title: "Ozônio em Nova York"
+subtitle: "Relatório gerado pelo pipeline de _targets.R"
+lang: pt-BR
+format:
+  html:
+    embed-resources: true
+---
+
+```{r carrega}
+#| echo: false
+targets::tar_load(c(medias, modelo, figura))
+```
+
+As médias mensais estão na @tbl-medias, e o modelo explica
+`r round(100 * summary(modelo)$r.squared, 1)`% da variação do ozônio,
+sobre os `r nobs(modelo)` dias em que as duas variáveis foram medidas.
+
+```{r tbl-medias}
+#| echo: false
+#| tbl-cap: "Médias mensais de ozônio e de temperatura."
+knitr::kable(medias)
+```
+
+![Ozônio contra temperatura, com a reta ajustada.](saidas/dispersao.png)
