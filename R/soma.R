@@ -23,5 +23,5 @@
 #'
 #' @export
 soma <- function(x, y) {
-    x + y
+    x+y
 }
