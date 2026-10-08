@@ -6,9 +6,6 @@
 \usage{
 soma(x, y)
 }
-\arguments{
-\item{x, y}{Vetores numéricos.}
-}
 \value{
 Um vetor numérico com a soma de \code{x} e \code{y}.
 }
